@@ -1,0 +1,30 @@
+# Dependencies
+web/node_modules/
+
+# Next.js
+web/.next/
+web/out/
+
+# TypeScript / tooling
+web/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# C++ build artifacts and local tools (do not commit binaries)
+*.o
+chopsticks
+export_strategy
+main
+analyze_p2_moves
+export_all_positions
+export_all_winning_moves
+export_losing_positions
+export_winning_no_insta_kill
+optimal_p1_moves
+reachable_p2_optimal
+files.zip
+strategy_full_tree.txt
